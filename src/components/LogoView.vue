@@ -30,7 +30,7 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
 <style lang="scss">
 .logo-link {
   letter-spacing: -0.0333ch;
-  background: var(--bg0);
+  background: var(--color-op);
   justify-self: start;
   align-self: start;
   display: inline-flex;

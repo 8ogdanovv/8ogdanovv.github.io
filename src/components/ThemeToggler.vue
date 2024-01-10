@@ -67,6 +67,7 @@ watch(theme, newTheme =>
   --bg50: #13131388;
   --bg2: #1a1a1a;
 
+  --color-op: #000000;
   --color0: #ffffff;
   --color50: #ffffff88;
 
@@ -95,6 +96,7 @@ watch(theme, newTheme =>
   --bg50: #ececec88;
   --bg2: #dbdbdb;
 
+  --color-op: #ffffff;
   --color0: #000000;
   --color50: #00000088;
 
