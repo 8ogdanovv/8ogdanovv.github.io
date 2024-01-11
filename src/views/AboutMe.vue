@@ -110,7 +110,7 @@ onMounted(() => window.scrollTo(0, 0))
   }
 
   .photo1 {
-    background-image: url('@/assets/photo-main.jpg');
+    background-image: url('@/assets/photo-main.webp');
     background-position: center;
 
     &::before {
@@ -122,7 +122,7 @@ onMounted(() => window.scrollTo(0, 0))
     }
   }
   .photo2 {
-    background-image: url('@/assets/photo-additional.jpg');
+    background-image: url('@/assets/photo-additional.webp');
     background-position: 0 25%;
 
     &::before {
