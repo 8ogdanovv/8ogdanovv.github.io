@@ -20,6 +20,8 @@ body {
   -moz-transition: color 1s, background 1s, backgroundColor 1s, boxShadow 1s;
   -ms-transition: color 1s, background 1s, backgroundColor 1s, boxShadow 1s;
   -o-transition: color 1s, background 1s, backgroundColor 1s, boxShadow 1s;
+  /* filter: grayscale(1);
+  -webkit-filter: grayscale(1); */
 }
 
 body::-webkit-scrollbar {
