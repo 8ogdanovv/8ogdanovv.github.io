@@ -8,8 +8,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-
 const { height } = defineProps(['height'])
 </script>
 

@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-import { ref, defineProps, defineAsyncComponent } from 'vue'
+import { ref, defineAsyncComponent } from 'vue'
 
 const LoaderView = defineAsyncComponent(() =>
   import('@/components/LoaderView.vue')

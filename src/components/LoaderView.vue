@@ -13,8 +13,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-
 const { classes, three } = defineProps(['classes', 'three'])
 </script>
 

@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import { ref, defineProps } from 'vue'
+import { ref } from 'vue'
 import { useMouseInElement } from '@vueuse/core'
 
 const { path, type, action, fontSize, padding, borderRadius, classes, bg } =
