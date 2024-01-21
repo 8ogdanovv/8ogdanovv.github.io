@@ -11,10 +11,10 @@
     </h4>
     <h2 class="h1 mail">
       <a
-        href="mailto:vadym4che@gmail.com"
+        href="mailto:8ogdanovv@gmail.com"
         class="link"
         style="padding: 1rem; margin: -1rem; border-radius: 4rem"
-        >vadym4che@gmail.com</a
+        >8ogdanovv@gmail.com</a
       >
     </h2>
 
@@ -26,7 +26,7 @@
           class="h4"
           title="Location of my integrated home-office web development studio"
         >
-          Street Kniazia Ostrozkogo,<br />
+          Ivana Franka St, 175/14,<br />
           Boiarka, Kyivs'ka oblast,<br />
           08150
         </h4>
@@ -41,17 +41,17 @@
 
         <div class="links">
           <h4 class="h4">
-            <a href="https://github.com/vadym4che" title="My Git-hub account">
+            <a href="https://github.com/8ogdanovv" title="My Git-hub account">
               <img src="/github.svg" alt="github logo" />&nbsp;
             </a>
           </h4>
           <h4 class="h4">
-            <a href="https://t.me/vadym4che" title="My Telegram direct link">
+            <a href="https://t.me/bogdanovvad1m" title="My Telegram direct link">
               <img src="/telegram.png" alt="telegram logo" />&nbsp;
             </a>
           </h4>
           <h4 class="h4">
-            <a href="mailto:vadym4che@gmail.com" title="My Gmail box">
+            <a href="mailto:8ogdanovv@gmail.com" title="My Gmail box">
               <img src="/mail.png" alt="mail logo" />&nbsp;
             </a>
           </h4>
@@ -60,7 +60,7 @@
     </div>
 
     <h4 class="h4 hr-above">
-      © {{ new Date().getFullYear() }}. Vadym4CHe. All rights reserved.
+      © {{ new Date().getFullYear() }}. 8ogdanovv. All rights reserved.
     </h4>
   </footer>
 </template>

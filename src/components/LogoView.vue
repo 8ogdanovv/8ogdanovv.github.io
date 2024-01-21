@@ -6,17 +6,8 @@
     :class="logoClass"
     :style="{ fontSize: size, lineHeight: size }"
   >
-    <span class="logo-span vadym font-variant">
-      Vadym4
-    </span>
-      <img
-        src="/logo.png"
-        alt="logo"
-        class="logo-image"
-        :style="{ height: size }"
-      >
-    <span class="logo-span he font-variant">
-      he
+    <span class="logo-span font-variant">
+      bogdanovv
     </span>
   </a>
 </template>
@@ -27,12 +18,12 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
 
 <style lang="scss">
 .logo-link {
-  letter-spacing: -0.0333ch;
+  letter-spacing: -0.25ch;
   background: var(--color-op);
   justify-self: start;
   align-self: start;
   display: inline-flex;
-  padding: 0 0.5rem;
+  padding: 0 0.75rem 0.5rem 0.5rem;
   border: 0.125rem dashed var(--color50);
   box-sizing: content-box;
 

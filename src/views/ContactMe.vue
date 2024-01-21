@@ -60,12 +60,12 @@
     <div class="address">
       <h4 class="h4">
         <a
-          href="https://t.me/vadym4che"
+          href="https://t.me/bogdanovvad1m"
           class="link"
           style="padding: 0.5rem; margin: -0.5rem"
           title="Contact me via Telegram or any other social media"
         >
-          @vadym4che
+          @bogdanovvad1m
         </a>
       </h4>
       <h4 class="h4">
@@ -80,12 +80,12 @@
       </h4>
       <h4 class="h4">
         <a
-          href="mailto:vadym4che@gmail.com"
+          href="mailto:8ogdanovv@gmail.com"
           class="link"
           style="padding: 0.5rem; margin: -0.5rem"
           title="Contact me via e-mail"
         >
-          vadym4che@gmail.com
+          8ogdanovv@gmail.com
         </a>
       </h4>
     </div>

@@ -26,7 +26,7 @@
         </h2>
 
         <p class="t2">
-          Hello, I am Vadym Chervoniak, a Full-stack developer based in Ukraine.
+          Hello, I am Vadim Bogdanov, a Full-stack developer based in Ukraine.
           My expertise includes HTML, CSS, JavaScript, React, Vue, Node.js,
           various databases, cloud computing, and integrating with different
           APIs, helping me to deliver complex web development solutions.
