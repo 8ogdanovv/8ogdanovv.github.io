@@ -20,7 +20,7 @@ We each have our own unique story to tell, and through the language of technolog
 
 <hr>
 <p align="center">
-  <a href="mailto:8ogdanovv@gmail.com">
+  <a href="mailto:8ogdanow@gmail.com">
     <img src="https://img.shields.io/badge/Email-8ogdanovv%40gmail.com-green" alt="Email">
   </a>
   <a href="https://t.me/8ogdanovv">

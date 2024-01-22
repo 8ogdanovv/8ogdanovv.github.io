@@ -25,19 +25,14 @@
 <script setup>
 import { ref, onMounted, watch, onUpdated } from 'vue'
 import { useMouse, useWindowSize } from '@vueuse/core'
+import getTheme from '@/helpers/getTheme'
 
 const { x, y } = useMouse()
 const { width, height } = useWindowSize()
 const offsetX = ref(50)
 const offsetY = ref(50)
 
-const theme = ref(
-  sessionStorage.getItem('theme')
-    ? sessionStorage.getItem('theme')
-    : window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light'
-)
+const theme = ref(getTheme())
 
 const toggleTheme = () => {
   theme.value = theme.value === 'light' ? 'dark' : 'light'
@@ -47,6 +42,7 @@ const toggleTheme = () => {
 onMounted(() => {
   document.documentElement.setAttribute('data-theme', theme.value)
   sessionStorage.setItem('theme', theme.value)
+  document.getElementById('favicon').href = theme.value === 'dark' ? '/logo_dark.png' : '/logo_light.png'
 })
 
 onUpdated(() => {
@@ -54,13 +50,16 @@ onUpdated(() => {
   offsetY.value = (y.value / height.value) * 100 || 50
 })
 
-watch(theme, newTheme =>
+watch(theme, newTheme => {
   document.documentElement.setAttribute('data-theme', newTheme)
-)
+  document.getElementById('favicon').href = newTheme === 'dark' ? '/logo_dark.png' : '/logo_light.png'
+})
 </script>
 
 <style lang="scss">
 [data-theme='dark'] {
+  --theme-logo: './logo_dark.png';
+  --theme-logo-inv: './logo_light.png';
   --is-dark: 1;
   --is-white: 0;
   --bg0: #131313;
@@ -77,7 +76,7 @@ watch(theme, newTheme =>
 
   --accent0: #4c4;
   --accent50: #4c48;
-  --accent1: #cb43cb;
+  --accent1: #c44;
   --accent2: hsl(120, 57%, 71%);
 
   --scrollbar-thumb: rgb(54, 54, 54);
@@ -90,6 +89,8 @@ watch(theme, newTheme =>
 }
 
 [data-theme='light'] {
+  --theme-logo: './logo_light.png';
+  --theme-logo-inv: './logo_dark.png';
   --is-dark: 0;
   --is-white: 1;
   --bg0: #ececec;
@@ -107,10 +108,10 @@ watch(theme, newTheme =>
   --bborder: rgba(255, 255, 2507 0.3);
   --bbg: rgba(3, 3, 4, 0.5);
 
-  --accent0: #cb43cb;
-  --accent50: #cb43cb88;
+  --accent0: #c44;
+  --accent50: #c448;
   --accent1: #4c4;
-  --accent2: hsl(300, 57%, 71%);
+  --accent2: hsl(0, 57%, 71%);
 
   --scrollbar-thumb: rgb(145, 145, 145);
   --scrollbar-track: rgb(242, 242, 242);

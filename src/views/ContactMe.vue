@@ -80,12 +80,12 @@
       </h4>
       <h4 class="h4">
         <a
-          href="mailto:8ogdanovv@gmail.com"
+          href="mailto:8ogdanow@gmail.com"
           class="link"
           style="padding: 0.5rem; margin: -0.5rem"
           title="Contact me via e-mail"
         >
-          8ogdanovv@gmail.com
+          8ogdanow@gmail.com
         </a>
       </h4>
     </div>

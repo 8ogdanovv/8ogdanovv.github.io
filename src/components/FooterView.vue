@@ -11,10 +11,10 @@
     </h4>
     <h2 class="h1 mail">
       <a
-        href="mailto:8ogdanovv@gmail.com"
+        href="mailto:8ogdanow@gmail.com"
         class="link"
         style="padding: 1rem; margin: -1rem; border-radius: 4rem"
-        >8ogdanovv@gmail.com</a
+        >8ogdanow@gmail.com</a
       >
     </h2>
 
@@ -51,7 +51,7 @@
             </a>
           </h4>
           <h4 class="h4">
-            <a href="mailto:8ogdanovv@gmail.com" title="My Gmail box">
+            <a href="mailto:8ogdanow@gmail.com" title="My Gmail box">
               <img src="/mail.png" alt="mail logo" />&nbsp;
             </a>
           </h4>
