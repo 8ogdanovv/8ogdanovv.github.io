@@ -32,30 +32,39 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
   justify-content: center;
   border: 0.125rem dashed var(--color50);
   box-sizing: content-box;
-  font-family: 'Impact', sans-serif;
-  letter-spacing: -0.15ch;
+  font-family: 'Victor Mono', monospace;
+  letter-spacing: -0.24ch;
+  padding-right: 0.072ch;
+  background: var(--color-op);
 
   .logo-span {
-    background: var(--color-op);
     padding-right: 0.05em;
+    background: var(--color-op);
   }
 
-  &:hover .logo-span {
-    filter: invert(1);
+  &:hover {
+    background: var(--color0);
+    border: 0.125rem dashed var(--bg50);
+
+    .logo-span {
+      background: var(--color0);
+      color: var(--bg0);
+    }
   }
 
   .logo-image {
     position: relative;
-    margin-right: -0.025em;
+    padding-right: 0.75em;
     z-index: 2;
 
     &:before, &:after {
       position: absolute;
       content: '';
       top: 0;
-      left: -0.019em;
+      left: 0.015em;
       width: 100%;
       height: 100%;
+      padding-right: 0.018em;
     }
 
     &:before {
@@ -68,7 +77,7 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
 
     &:after {
       clip-path: polygon(
-        0% 10%, 23.5% 10%, 28% 65%, 33% 10%, 67.5% 10%, 72.5% 65%, 77% 10%, 100% 10%, 100% 100%, 0% 100%
+        1% 11%, 10% 11%, 27.5% 73%, 45% 11%, 55% 11%, 72.5% 73%, 90% 11%, 100% 11%, 100% 100%, 1% 100%
       );
       background: var(--accent0);
       z-index: -1;
