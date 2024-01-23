@@ -16,13 +16,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import getTheme from '@/helpers/getTheme'
-
-const theme = ref(getTheme())
 const { size, logoClass } = defineProps(['size', 'logoClass'])
-
 </script>
+
 <style lang="scss">
 .logo-link {
   justify-self: start;
