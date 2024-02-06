@@ -58,7 +58,7 @@ const slidesArray = [
   {
     title: 'Visualizing Advanced Graphics Concepts',
     content: [
-      { name: 'SVG, Canvas', path: 'logo.png' },
+      { name: 'SVG, Canvas', path: 'favicon.ico' },
       { name: 'WebGL', path: 'webgl.webp' },
       { name: 'Three.js', path: 'threejs.webp' },
     ],
