@@ -20,7 +20,6 @@ body {
   -moz-transition: color 1s, background 1s, backgroundColor 1s, boxShadow 1s;
   -ms-transition: color 1s, background 1s, backgroundColor 1s, boxShadow 1s;
   -o-transition: color 1s, background 1s, backgroundColor 1s, boxShadow 1s;
-  cursor: url('./star.cur') 16 16, url('./star.ico') 16 16, url('./star.png') 16 16, default;
 }
 
 body::-webkit-scrollbar {
