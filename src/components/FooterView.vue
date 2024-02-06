@@ -4,11 +4,12 @@
       <router-link
         to="/contact"
         class="link"
-        style="padding: 1rem; margin: -1rem; border-radius: 4rem"
+        style="padding: 1rem; margin: -1rem; border-radius: 4rem;"
       >
         Get in Touch With Me
       </router-link>
     </h4>
+
     <h2 class="h1 mail">
       <a
         href="mailto:8ogdanow@gmail.com"
@@ -45,11 +46,13 @@
               <img src="/github.svg" alt="github logo" />&nbsp;
             </a>
           </h4>
+
           <h4 class="h4">
             <a href="https://t.me/bogdanovvad1m" title="My Telegram direct link">
               <img src="/telegram.png" alt="telegram logo" />&nbsp;
             </a>
           </h4>
+
           <h4 class="h4">
             <a href="mailto:8ogdanow@gmail.com" title="My Gmail box">
               <img src="/mail.png" alt="mail logo" />&nbsp;
@@ -60,7 +63,7 @@
     </div>
 
     <h4 class="h4 hr-above">
-      © {{ new Date().getFullYear() }}. 8ogdanovv. All rights reserved.
+      &copy; {{ new Date().getFullYear() }}. 8ogdanovv. All rights reserved.
     </h4>
   </footer>
 </template>
@@ -97,6 +100,7 @@ footer {
 
     & a {
       color: var(--accent0);
+      text-shadow: 0 0 0.25rem var(--color50);
     }
   }
 

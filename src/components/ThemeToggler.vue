@@ -74,10 +74,10 @@ watch(theme, newTheme => {
   --color2: #a8a8a8;
   --color3: #949494;
 
-  --accent0: #4c4;
-  --accent50: #4c48;
-  --accent1: #c44;
-  --accent2: hsl(120, 57%, 71%);
+  --accent0: #0066cc;
+  --accent50: #0066cc88;
+  --accent1: #ffcc00;
+  --accent2: hsl(210, 100%, 71%);
 
   --scrollbar-thumb: rgb(54, 54, 54);
   --scrollbar-track: rgb(90, 90, 90);
@@ -108,10 +108,10 @@ watch(theme, newTheme => {
   --bborder: rgba(255, 255, 2507 0.3);
   --bbg: rgba(3, 3, 4, 0.5);
 
-  --accent0: #c44;
-  --accent50: #c448;
-  --accent1: #4c4;
-  --accent2: hsl(0, 57%, 71%);
+  --accent0: #ffcc00;
+  --accent50: #ffcc0088;
+  --accent1: #0066cc;
+  --accent2: hsl(48, 100%, 71%);
 
   --scrollbar-thumb: rgb(145, 145, 145);
   --scrollbar-track: rgb(242, 242, 242);
