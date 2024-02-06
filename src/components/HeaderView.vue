@@ -6,12 +6,15 @@
       <li class="menu-item">
         <router-link to="/home" class="link">Home</router-link>
       </li>
+
       <li class="menu-item">
         <router-link to="/about" class="link">About Me</router-link>
       </li>
+
       <li class="menu-item">
         <router-link to="/projects" class="link">My Works</router-link>
       </li>
+
       <li class="menu-item">
         <router-link to="/contact" class="link">Contact</router-link>
       </li>

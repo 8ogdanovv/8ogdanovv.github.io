@@ -10,6 +10,7 @@
         :content="slide.content"
         :style="'font-size: 3rem'"
       />
+
       <template #pause>
         <i class="icon pause_circle_outline"></i>
       </template>

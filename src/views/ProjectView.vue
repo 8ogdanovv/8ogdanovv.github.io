@@ -5,6 +5,7 @@
         Project Detail
         <high-light />
       </h2>
+
       <p class="t2">
         Details About The Project
       </p>
@@ -25,48 +26,60 @@
           </b>
           {{ project.tags.join(' | ') }}
         </p>
+
         <p class="p4">
           <b>
             Tech stack:&nbsp;
           </b>
           {{ project.stack.join(', ') }}
         </p>
+
         <p class="p4">
           <b>
             Source:&nbsp;
           </b>
           <a :href="source" target="_blank" class="source" title="GitHub Repository">{{ source }}</a>
         </p>
+
         <p class="p4">
           <b>
             Demo:&nbsp;
           </b>
           <a :href="demo" target="_blank" class="demo" title="Live Demo">{{ demo }}</a>
         </p>
+
         <p class="p4" v-if="project.deps.length">
-          <b>Libraries usage:</b><br>
-        <ul>
-          <li v-for="d, i in project.deps" :key="i">{{ d }}</li>
-        </ul>
+          <b>Libraries usage:</b>
+
+          <br />
+
+          <ul>
+            <li v-for="d, i in project.deps" :key="i">{{ d }}</li>
+          </ul>
         </p>
+
         <p class="p4" v-else>
           The project does not utilize any external libraries and relies solely on
           the standard built-in HTML, CSS, and JavaScript processing capabilities
           of modern browsers.
         </p>
+
         <p class="p4">
           <b>
             Description:
           </b>
-          <br>
-        <pre v-if="project.desc">
+
+          <br />
+
+          <pre v-if="project.desc">
 {{ project.desc }}
           </pre>
-        <p class="p4" v-else>
-          It seems that there is no description attached, so let's suppose that
-          this project is self-descriptive and needs no explicit descriptional
-          words.
-        </p>
+
+          <p class="p4" v-else>
+            It seems that there is no description attached, so let's suppose that
+            this project is self-descriptive and needs no explicit descriptional
+            words.
+          </p>
         </p>
       </div>
     </div>
@@ -128,6 +141,7 @@ import getThreeRandom from '@/helpers/getThreeRandom'
 const AsyncFrame = defineAsyncComponent(() =>
   import('@/components/AsyncFrame.vue')
 )
+
 const route = useRoute()
 const projectName = ref(route.params.projectName)
 const project = ref(getProjectDetails(projectName.value))

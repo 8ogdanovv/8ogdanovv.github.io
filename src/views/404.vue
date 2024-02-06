@@ -3,6 +3,7 @@
     <h2 class="h2 flex-col-center">
       404
       <high-light />
+
       <p class="p1">
         In the vast realm of possibilities,<br />
         the route <b class="">{{ useRoute().path }}</b> exists<br />

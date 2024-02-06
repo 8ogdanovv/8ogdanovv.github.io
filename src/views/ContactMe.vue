@@ -5,6 +5,7 @@
         Contact Me
         <high-light />
       </h2>
+
       <p class="t2">Hire Me For Your Awesome Project</p>
     </div>
 
@@ -22,6 +23,7 @@
               aria-label="name-input"
             />
           </label>
+
           <label data-text="EMAIL">
             <input
               type="email"
@@ -30,6 +32,7 @@
               aria-label="email-input"
             />
           </label>
+
           <label data-text="SUBJECT">
             <input
               type="text"
@@ -38,6 +41,7 @@
               aria-label="subject-input"
             />
           </label>
+
           <label data-text="MESSAGE">
             <textarea v-model="message"></textarea>
           </label>
@@ -68,6 +72,7 @@
           @bogdanovvad1m
         </a>
       </h4>
+
       <h4 class="h4">
         <a
           href="tel:+380505444199"
@@ -78,6 +83,7 @@
           +380-505-444-199
         </a>
       </h4>
+
       <h4 class="h4">
         <a
           href="mailto:8ogdanow@gmail.com"

@@ -8,8 +8,9 @@
     ref="frame"
     @load="setLoaded"
   ></iframe>
+
   <loader-view
-    v-show="!isLoaded"
+    v-if="!isLoaded"
     :classes="iframeClass"
     class="placeholder"
     :three="three"

@@ -5,14 +5,22 @@
         About Me
         <high-light />
       </h2>
+
       <p class="t2">Little Brief About Myself</p>
     </div>
 
     <div class="mission flex-col-start">
       <div class="mission-header">
         <h2 class="h2">
-          My mission is<br />to make<br />development<br />easier.
+          My mission is
+          <br />
+          to make
+          <br />
+          development
+          <br />
+          easier.
         </h2>
+
         <p class="t3">
           As individuals, we are all born developers, constantly shaping our
           neural networks as we journey through life. Some of us, including
@@ -20,7 +28,9 @@
           fulfilling career in web development. For me, it's not just a job but
           a calling that allows me to express my creativity and make a
           meaningful impact through technology.
-          <br /><br /><br />
+          <br />
+          <br />
+          <br />
           We each have our own unique story to tell, and through the language of
           technology, we code our autobiographies, breathing life into our ideas
           on the digital canvas. I am deeply dedicated to creating user-friendly
@@ -31,9 +41,11 @@
 
       <div class="photos">
         <div class="photo photo1"></div>
+
         <div class="photo photo2"></div>
       </div>
     </div>
+
     <pre class="rhymes">
 <span>I've earned my own very first PC</span>
 <span>By working summer holidays in 2003</span>

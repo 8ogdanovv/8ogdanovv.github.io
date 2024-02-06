@@ -36,8 +36,13 @@
 
       <p class="p3">
         <span class="dimmed">tech stack: &nbsp;</span>
-        {{ stack.join(' | ') }}<br />
+
+        {{ stack.join(' | ') }}
+
+        <br />
+
         <span class="dimmed">tech area: &nbsp;&nbsp;</span>
+
         {{ tags.join(', ') }}
       </p>
     </div>
