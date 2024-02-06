@@ -195,7 +195,7 @@ onMounted(() => window.scrollTo(0, 0))
   align-items: flex-end;
   overflow: hidden;
 
-  &::focus {
+  &:focus {
     outline: none;
     border: none none auto none;
   }
