@@ -6,10 +6,10 @@
     :class="logoClass"
     :style="{ fontSize: size, lineHeight: size }"
   >
-    <span class="logo-span">
+    <span class="logo-span logo">
       BOGDANO
     </span>
-    <span class="logo-image" :style="{ width: size, height: size }">
+    <span class="logo-image logo" :style="{ width: size, height: size }">
       VV
     </span>
   </a>

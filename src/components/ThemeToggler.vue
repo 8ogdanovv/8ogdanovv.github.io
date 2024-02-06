@@ -14,7 +14,7 @@
       {{ theme === 'light' ? '🌙' : '🌞' }}
     </span>
 
-    <h2 style="display: none">
+    <h2 v-show="false">
       {{ width }} {{ height }}<br />
       {{ x }} {{ y }}<br />
       {{ offsetX }} {{ offsetY }}
@@ -36,24 +36,22 @@ const theme = ref(getTheme())
 
 const toggleTheme = () => {
   theme.value = theme.value === 'light' ? 'dark' : 'light'
-  sessionStorage.setItem('theme', theme.value)
 }
 
-onMounted(() => {
-  document.documentElement.setAttribute('data-theme', theme.value)
-  sessionStorage.setItem('theme', theme.value)
-  document.getElementById('favicon').href = theme.value === 'dark' ? '/logo_dark.png' : '/logo_light.png'
-})
+const setTheme = theme => {
+  sessionStorage.setItem('theme', theme)
+  document.documentElement.setAttribute('data-theme', theme)
+  document.getElementById('favicon').href = theme === 'dark' ? '/favicon_dark.ico' : '/favicon_light.ico'
+}
+
+onMounted(() => setTheme(theme.value))
 
 onUpdated(() => {
   offsetX.value = (x.value / width.value) * 100 || 50
   offsetY.value = (y.value / height.value) * 100 || 50
 })
 
-watch(theme, newTheme => {
-  document.documentElement.setAttribute('data-theme', newTheme)
-  document.getElementById('favicon').href = newTheme === 'dark' ? '/logo_dark.png' : '/logo_light.png'
-})
+watch(theme, newTheme => setTheme(newTheme))
 </script>
 
 <style lang="scss">
