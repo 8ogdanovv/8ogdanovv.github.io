@@ -8,17 +8,17 @@ As individuals, we are all born developers, constantly shaping our neural networ
 We each have our own unique story to tell, and through the language of technology, we code our autobiographies, breathing life into our ideas on the digital canvas. I am deeply dedicated to creating user-friendly web applications and continually enhancing my skills to stay ahead in this ever-evolving industry.
 
 <p align="center">
-  <a href="https://8ogdanovv.github.io"><img src="https://github.com/8ogdanovv/8ogdanovv.github.io/blob/main/public/logo.png" alt="auto-biography-coding sign" /></a><br>
-  <br>
-  <i>I've earned my own very first PC</i><br>  
-  <i>By working summer holidays in 2003</i><br>  
-  <i>I'm a `web dev loco` (if you will) code-addict</i><br>  
-  <i>Devoted to development with JavaScript</i><br>  
-  <i>I'm experienced enough to exactly know</i><br>  
-  <i>Using DOCs, AI, Google and Stackoverflow</i><br>  
+  <a href="https://8ogdanovv.github.io"><img src="https://github.com/8ogdanovv/8ogdanovv.github.io/blob/main/public/logo.png" alt="auto-biography-coding sign" /></a><br />
+  <br />
+  <i>I've earned my own very first PC</i><br />  
+  <i>By working summer holidays in 2003</i><br />  
+  <i>I'm a `web dev loco` (if you will) code-addict</i><br />  
+  <i>Devoted to development with JavaScript</i><br />  
+  <i>I'm experienced enough to exactly know</i><br />  
+  <i>Using DOCs, AI, Google and Stackoverflow</i><br />  
 </p>
 
-<hr>
+<hr />
 <p align="center">
   <a href="mailto:8ogdanow@gmail.com">
     <img src="https://img.shields.io/badge/Email-8ogdanovv%40gmail.com-green" alt="Email">
@@ -29,6 +29,6 @@ We each have our own unique story to tell, and through the language of technolog
   <a href="tel:+380505444199">
     <img src="https://img.shields.io/badge/Phone-%2B380505444199-green" alt="Phone">
   </a>
-  <br>
+  <br />
   Feel free to contact me through any channel! Thank you for visiting!  
 </p>
