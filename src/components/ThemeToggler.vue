@@ -62,11 +62,13 @@ watch(theme, newTheme => setTheme(newTheme))
   --is-white: 0;
   --bg0: #131313;
   --bg50: #13131388;
+  --bg33: rgba(19, 19, 19, 0.33);
   --bg2: #1a1a1a;
 
   --color-op: #000000;
   --color0: #ffffff;
   --color50: #ffffff88;
+  --color33: rgba(255, 255, 255, 0.33);
 
   --color1: #f4f7fa;
   --color2: #a8a8a8;
@@ -93,11 +95,13 @@ watch(theme, newTheme => setTheme(newTheme))
   --is-white: 1;
   --bg0: #ececec;
   --bg50: #ececec88;
+  --bg33: rgba(236, 236, 236, 0.33);
   --bg2: #dbdbdb;
 
   --color-op: #ffffff;
   --color0: #000000;
   --color50: #00000088;
+  --color33: rgba(0, 0, 0, 0.33);
 
   --color1: #0b0805;
   --color2: #575757;

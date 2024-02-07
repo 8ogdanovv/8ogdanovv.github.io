@@ -26,21 +26,23 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 0.125rem dashed var(--color50);
+  border: 2px dashed var(--color33);
   box-sizing: content-box;
   font-family: 'Victor Mono', monospace;
-  letter-spacing: -0.24ch;
-  padding-right: 0.072ch;
+  letter-spacing: -0.21ch;
+  padding: 0 0.33rem 0.25rem 0.1rem;
   background: var(--color-op);
+  font-weight: 700;
+  z-index: 1;
 
   .logo-span {
-    padding-right: 0.05em;
+    padding-right: 0.18rem;
     background: var(--color-op);
   }
 
   &:hover {
     background: var(--color0);
-    border: 0.125rem dashed var(--bg50);
+    border-color: var(--bg33);
 
     .logo-span {
       background: var(--color0);
@@ -50,8 +52,7 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
 
   .logo-image {
     position: relative;
-    padding-right: 0.75em;
-    z-index: 2;
+    z-index: -2;
 
     &:before, &:after {
       position: absolute;
@@ -60,20 +61,20 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
       left: 0.015em;
       width: 100%;
       height: 100%;
-      padding-right: 0.018em;
+      padding-right: 0.15rem;
     }
 
     &:before {
       clip-path: polygon(
         0% 0%, 100% 0%, 100% 100%, 0% 100%
       );
-      background: var(--bg0);
+      background: transparent;
       z-index: -2;
     }
 
     &:after {
       clip-path: polygon(
-        1% 11%, 10% 11%, 27.5% 73%, 45% 11%, 55% 11%, 72.5% 73%, 90% 11%, 100% 11%, 100% 100%, 1% 100%
+        1% 13%, 10% 13%, 27.5% 77%, 45% 13%, 55% 13%, 74% 77%, 91% 13%, 99% 13%, 99% 100%, 1% 100%
       );
       background: var(--accent0);
       z-index: -1;
