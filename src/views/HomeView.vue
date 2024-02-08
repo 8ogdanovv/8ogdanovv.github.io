@@ -137,8 +137,8 @@ onMounted(() => window.scrollTo(0, 0))
   .right {
     width: 100%;
     aspect-ratio: 9 / 10;
-    background: url('@/assets/photo-main.webp');
-    background-position: top center;
+    background: url('@/assets/photo1.webp');
+    background-position: 50% 25%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2rem;
