@@ -259,7 +259,6 @@ textarea {
 
 .laptop {
   border-radius: 1rem;
-  /* background-image: url('@/assets/cover.webp'); */
   background-image: url('@/assets/laptop.webp');
   width: 100%;
   height: 55.5%;
@@ -268,7 +267,6 @@ textarea {
   background-repeat: no-repeat;
   aspect-ratio: 1148 / 636;
   margin-bottom: 6.25rem;
-  /* filter: invert(var(--is-white)); */
 }
 
 .address {

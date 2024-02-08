@@ -46,6 +46,7 @@ const { classes, three } = defineProps(['classes', 'three'])
     transform: scale(0.1);
   }
 }
+
 .loader,
 .circle2 {
   width: 100%;

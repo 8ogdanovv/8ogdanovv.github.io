@@ -7,7 +7,9 @@
     <span
       id="spot"
       :style="{
-        background: `radial-gradient(ellipse at ${offsetX}% ${offsetY}%, var(--accent1), var(--color0))`,
+        background:
+          `radial-gradient(ellipse at ${offsetX}% ${offsetY}%,
+          var(--accent1), var(--color0))`,
         fontSize: theme === 'light' ? '1.5rem' : '1.75rem',
       }"
     >
@@ -41,7 +43,8 @@ const toggleTheme = () => {
 const setTheme = theme => {
   sessionStorage.setItem('theme', theme)
   document.documentElement.setAttribute('data-theme', theme)
-  document.getElementById('favicon').href = theme === 'dark' ? '/favicon_dark.ico' : '/favicon_light.ico'
+  document.getElementById('favicon').href =
+    theme === 'dark' ? '/favicon_dark.ico' : '/favicon_light.ico'
 }
 
 onMounted(() => setTheme(theme.value))
@@ -56,8 +59,6 @@ watch(theme, newTheme => setTheme(newTheme))
 
 <style lang="scss">
 [data-theme='dark'] {
-  --theme-logo: './logo_dark.png';
-  --theme-logo-inv: './logo_light.png';
   --is-dark: 1;
   --is-white: 0;
   --bg0: #131313;
@@ -81,7 +82,6 @@ watch(theme, newTheme => setTheme(newTheme))
 
   --scrollbar-thumb: rgb(54, 54, 54);
   --scrollbar-track: rgb(90, 90, 90);
-
   --scrollbar-thumb_hover: rgb(21, 21, 21);
   --scrollbar-track_hover: rgb(106, 106, 106);
 
@@ -89,8 +89,6 @@ watch(theme, newTheme => setTheme(newTheme))
 }
 
 [data-theme='light'] {
-  --theme-logo: './logo_light.png';
-  --theme-logo-inv: './logo_dark.png';
   --is-dark: 0;
   --is-white: 1;
   --bg0: #ececec;
@@ -117,7 +115,6 @@ watch(theme, newTheme => setTheme(newTheme))
 
   --scrollbar-thumb: rgb(145, 145, 145);
   --scrollbar-track: rgb(242, 242, 242);
-
   --scrollbar-thumb_hover: rgb(45, 45, 45);
   --scrollbar-track_hover: rgb(226, 226, 226);
 

@@ -1,8 +1,15 @@
 <template>
   <section class="flex-col-center tech-stack">
-    <h2 class="h2 text-center">Technologies I like to use and keep diving in deeper</h2>
+    <h2 class="h2 text-center">
+      Technologies I like to use and keep diving in deeper
+    </h2>
 
-    <vueper-slides :fixed-height="true" autoplay class="no-shadow" ref="slider">
+    <vueper-slides
+      :fixed-height="true"
+      class="no-shadow"
+      ref="slider"
+      autoplay
+    >
       <vueper-slide
         v-for="(slide, i) in slides"
         :key="slide.id"
@@ -61,8 +68,8 @@ onUpdated(() =>  setSlideContentGrid())
       height: 30rem;
     }
   }
-
 }
+
 .tech-stack {
   padding: 2rem auto 2rem auto;
 
@@ -78,11 +85,13 @@ onUpdated(() =>  setSlideContentGrid())
     }
   }
 }
+
 .vueperslides {
   width: 100%;
-  .vueperslide__content-wrapper {
-  }
+
+  .vueperslide__content-wrapper {}
 }
+
 .vueperslide__content {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;

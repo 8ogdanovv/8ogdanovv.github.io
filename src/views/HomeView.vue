@@ -75,7 +75,7 @@
 import { defineAsyncComponent, onMounted } from 'vue'
 import HighLight from '@/components/HighLight.vue'
 import ActiveElement from '@/components/ActiveElement.vue'
-import ArrowRight from '../components/ArrowRight.vue';
+import ArrowRight from '@/components/ArrowRight.vue'
 
 const ThreeView = defineAsyncComponent(() =>
   import('@/components/ThreeView.vue')
@@ -90,11 +90,13 @@ onMounted(() => window.scrollTo(0, 0))
 <style lang="scss" scoped>
 .head {
   text-align: center;
+
   .h1 {
     position: relative;
     width: 18ch;
     height: 10rem;
   }
+
   & .highlight {
     position: absolute;
     top: -7.5rem;
@@ -108,6 +110,7 @@ onMounted(() => window.scrollTo(0, 0))
   grid-template-columns: 4fr 3fr;
   gap: 6rem;
   align-items: center;
+
   .left {
     width: 100%;
     align-items: flex-start;
@@ -173,6 +176,7 @@ onMounted(() => window.scrollTo(0, 0))
 .projects {
   padding: 3rem 0;
   gap: 2rem;
+
   .h2 {
     text-align: center;
     position: relative;

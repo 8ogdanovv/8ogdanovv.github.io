@@ -44,7 +44,6 @@ import ThemeToggler from '@/components/ThemeToggler.vue'
 
 .logo-view {
   margin: 1.25rem 0.5rem 0;
-  /* opacity: 0.75; */
   z-index: 1;
   box-shadow: 0 0 1rem var(--bg50);
 }

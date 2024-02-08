@@ -88,9 +88,8 @@ const handleScroll = () => {
   const lastElementId = `three-${projectsToShow.value.length - 2}`
   const lastElement = document.getElementById(lastElementId)
 
-  if (lastElement) {
+  if (lastElement)
     lastElement.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
 }
 
 onMounted(() => window.scrollTo(0, 0))

@@ -65,22 +65,21 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
     }
 
     &:before {
-      clip-path: polygon(
-        0% 0%, 100% 0%, 100% 100%, 0% 100%
-      );
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
       background: transparent;
       z-index: -2;
     }
 
     &:after {
       clip-path: polygon(
-        1% 13%, 10% 13%, 27.5% 77%, 45% 13%, 55% 13%, 74% 77%, 91% 13%, 99% 13%, 99% 100%, 1% 100%
+        1% 13%, 10% 13%, 27.5% 77%, 45% 13%, 55% 13%,
+        74% 77%, 91% 13%, 99% 13%, 99% 100%, 1% 100%
       );
       background: var(--accent0);
       z-index: -1;
     }
-
   }
+
   &:hover .logo-image {
     color: var(--bg0);
   }

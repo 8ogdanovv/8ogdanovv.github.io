@@ -135,15 +135,17 @@ address {
 }
 
 .links {
-  .h4 {
-    width: 3rem;
-  }
   padding-top: 1rem;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1rem;
+
+  .h4 {
+    width: 3rem;
+  }
 }
+
 .links img {
   width: 2.5rem;
   height: 2.5rem;
