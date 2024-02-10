@@ -30,7 +30,7 @@ const { size, logoClass } = defineProps(['size', 'logoClass'])
   box-sizing: content-box;
   font-family: 'Victor Mono', monospace;
   letter-spacing: -0.21ch;
-  padding: 0 0.33rem 0.25rem 0.1rem;
+  padding: 0.05rem 0.33rem 0.15rem 0.1rem;
   background: var(--color-op);
   font-weight: 700;
   z-index: 1;

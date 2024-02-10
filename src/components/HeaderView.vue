@@ -61,7 +61,7 @@ menu {
 
   @media (orientation: landscape) and (min-width: 1000px) {
     & {
-      left: -3.75rem;
+      left: -3rem;
     }
   }
 

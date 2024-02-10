@@ -595,7 +595,6 @@ const chunkArray = (arr, chunkSize) => {
     chunkedArray.push(chunk)
   }
 
-  console.log(chunkedArray.length, chunkedArray)
   return chunkedArray
 }
 

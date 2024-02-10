@@ -63,7 +63,7 @@
     </div>
 
     <h4 class="h4 hr-above">
-      &copy; {{ new Date().getFullYear() }}. 8ogdanovv. All rights reserved.
+      &copy; 2021-{{ new Date().getFullYear() }}. 8ogdanovv. All rights reserved.
     </h4>
   </footer>
 </template>
