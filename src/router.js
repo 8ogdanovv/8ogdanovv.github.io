@@ -50,10 +50,16 @@ const routes = [
   },
   {
     // Catch all routes that don't match the previous ones
-    path: '/:pathMatch(.*)*',
+    path: '*',
     name: 'no-match',
     component: () => import('@/views/404.vue'),
   },
+  // {
+  //   // Catch all routes that don't match the previous ones
+  //   path: '/:pathMatch(.*)*',
+  //   name: 'no-match',
+  //   component: () => import('@/views/404.vue'),
+  // },
 ]
 
 const router = createRouter({
