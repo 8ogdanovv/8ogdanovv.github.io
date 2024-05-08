@@ -3,6 +3,11 @@ import { projects } from '@/assets/projects.js'
 
 const routes = [
   {
+    path: '/mediaoffice-com-ua/:path(.*)',
+    // This route does nothing; it will not catch 404 errors
+    beforeEnter: () => {},
+  },
+  {
     path: '/',
     redirect: '/home', // Redirect root path to the Home route
   },
@@ -44,11 +49,6 @@ const routes = [
           hash: to.hash,
         }
     },
-  },
-  {
-    path: '/mediaoffice-com-ua/:path(.*)',
-    // This route does nothing; it will not catch 404 errors
-    beforeEnter: () => {},
   },
   {
     // Catch all routes that don't match the previous ones
