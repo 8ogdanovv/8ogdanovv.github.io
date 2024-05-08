@@ -3,9 +3,7 @@ import { projects } from '@/assets/projects.js'
 
 const routes = [
   {
-    path: '/mediaoffice-com-ua/:path(.*)',
-    // This route does nothing; it will not catch 404 errors
-    beforeEnter: () => {},
+    path: '/mediaoffice-com-ua', // Ignore or pass on to server
   },
   {
     path: '/',
