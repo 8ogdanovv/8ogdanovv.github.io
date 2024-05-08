@@ -46,11 +46,9 @@ const routes = [
     },
   },
   {
-    // Redirect all requests starting with /mediaoffice-com-ua to the external address
     path: '/mediaoffice-com-ua/:path(.*)',
-    beforeEnter(to) {
-      window.location.href = `https://8ogdanovv.github.io${to.fullPath}`
-    },
+    // This route does nothing; it will not catch 404 errors
+    beforeEnter: () => {},
   },
   {
     // Catch all routes that don't match the previous ones
