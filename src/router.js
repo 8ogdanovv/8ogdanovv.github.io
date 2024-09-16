@@ -51,6 +51,11 @@ const routes = [
     beforeEnter: () => {},
   },
   {
+    path: '/abcd-sign/:path(.*)',
+    // This route does nothing; it will not catch 404 errors
+    beforeEnter: () => {},
+  },
+  {
     // Catch all routes that don't match the previous ones
     path: '/:pathMatch(.*)*',
     name: 'no-match',
